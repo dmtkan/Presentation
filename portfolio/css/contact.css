@@ -1,0 +1,117 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 150, 0.5),rgba(0, 0, 50, 0.5)), url(../images/background1.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+  position: relative;
+}
+.navigation a{
+   text-decoration: none;
+   color: inherit;
+}
+.navigation a:hover{
+  background-color: brown;
+  font-size: 1.5em;
+}
+.navigation{
+   height: 4em;
+   width: 97%;
+   padding: 40px 20px;
+   margin-top: -14%;
+   position: absolute;
+   background: none;
+   color: white;
+   text-align: right;
+   overflow: hidden;
+   background-color: black;
+}
+.navigation ul li{
+   display: inline-block;
+   font-size: 20px;
+   margin-left: 1em;
+   margin-right: 1em;
+}
+#one{
+  background-color: brown;
+  font-size: 1.5em;
+}
+.text {
+  text-align: left;
+  font-size: 3em;
+  padding-left: 4%;
+}
+.contact-title{
+  margin-top: 200px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+.contact-title h1{
+  font-size: 32px;
+  line-height: 10px;
+}
+
+
+form{
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+.form-control{
+  height: 50px;
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color:#fff;
+  font-size: 18px;
+  margin-bottom: 16px;
+
+}
+input{
+  height: 80px;
+}
+form .form-controlsubmit{
+background: #ff5722;
+border-color: transparent;
+color: #fff;
+font-size: 20px;
+letter-spacing: 2px;
+font-weight: bold;
+height: 50px;
+margin-top: 20px;
+}
+form .submit:hover{
+  background-color: #f334;
+}
+
+
+
+
+.footer{
+  width: 100%;
+  height: 12em;
+  color: white;
+  text-align: center;
+  background-color: none;
+
+
+}
+.footer li{
+list-style: none;
+margin: 100px 30px;
+display: inline-block;
+padding: 20px 20px;
+color: orange;
+border-radius: 30%;
+transition: 5s;
+font-size: 1em;
+}
+.footer li:hover{
+color: yellow;
+border: 1px solid yellow;
+transition: 0.5s;
+}

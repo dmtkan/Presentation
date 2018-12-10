@@ -1,0 +1,181 @@
+/*header*/
+.image1{
+   width: 100%;
+   height: 15em;
+   margin: 0em;
+   position: relative;
+}
+.overlay{
+   width:100%;
+   height:3em;
+   padding: 90px 0;
+   position: absolute;
+   background-color: #00795f;
+   /*font setup*/
+   font-size: 5em;
+   color: white;
+   text-align: center;
+   box-sizing: border-box;
+   top:0;
+   opacity: 0;
+   transition: 3s ease;
+}
+.image1:hover .overlay{
+   opacity: 1;
+}
+/*navigation*/
+.navigation a{
+   text-decoration: none;
+   color: inherit;
+}
+.navigation a:hover{
+  background-color: #F44336;
+  font-size: 1.5em;
+}
+.navigation{
+   background: #00795f;
+   padding: 0;
+   color: white;
+   text-align: center;
+   overflow: hidden;
+   margin: 0;
+
+}
+.navigation ul li{
+   display: inline-block;
+   font-size: 20px;
+   margin-left: 1em;
+   margin-right: 1em;
+
+   box-sizing: border-box;
+}
+.logos{
+  width: 100%;
+  height: 8em;
+
+}
+
+.microsoft{
+  width:50%;
+  height:100%;
+  animation-name: logo;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+
+}
+.apple{
+  width:20%;
+  height:7em;
+  animation-name: logo;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+
+}
+.tesla{
+  width:70%;
+  height:7em;
+  animation-name: logo;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-delay: 0.5s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+
+
+
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+@keyframes logo {
+  from{transform: translateX(0);}
+  to{transform: translateX(10em);}
+  }
+
+
+.mainbox{
+   width: 100%;
+   height: 55em;
+}
+.column{
+   width: 30%;
+   height: 50em;
+   box-sizing: border-box;
+   float: left;
+   margin-right: 2em;
+}
+.picture{
+   width:100%;
+   height: 25em;
+   box-sizing: border-box;
+   box-shadow: 0.3em 0.3em 0.5em orange;
+}
+.container{
+   width:100;
+   height:25em;
+   border:solid none;
+   box-sizing: border-box;
+}
+.name{
+   color: grey;
+   font-family: inherit;
+}
+.read{
+    width:100%;
+    height: 2em;
+    margin-top: 10%;
+    background-color: #00795f;
+    color: white;
+    text-align: center;
+    padding-top: 0.5em;
+    border-radius: 2em 2em 2em 2em;
+  }
+.read:hover{
+    color:red;
+    background-color: #FF8A80;
+    box-shadow: 0.2em 0.2em 0.3em;
+  }
+.read:visited{
+    color: pink;
+    font-weight: bolder;
+  }
+.down{
+    height: 3em;
+    color: Black;
+    text-align: center;
+  }
+.down a:visited{
+    color: pink;
+    font-weight: bolder;
+}
+.down a:hover{
+    color:red;
+    font-size: 1.5em;
+  }
+  .down a:focus{
+          color: green;
+          font-stretch: expanded; }
+img{
+   width:100%;
+   height:100%;
+}
+a{
+   text-decoration: none;
+}
+li{
+     text-align: center;
+}
+a  .last:visited{
+  color: pink;
+
+}

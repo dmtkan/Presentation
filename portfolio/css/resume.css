@@ -1,0 +1,163 @@
+html {
+  background-color: #444;
+  padding: 1em;
+}
+body {
+  width: 100%;
+  margin: -13;
+  background-color: #FFF;
+  font-family:  sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.navigation a{
+   text-decoration: none;
+   color: inherit;
+}
+.navigation a:hover{
+  background-color: brown;
+  font-size: 1.5em;
+}
+.navigation{
+   height: 3em;
+   width: 99%;
+   padding: 40px 10px;
+  margin: -13;
+   position: absolute;
+   background: none;
+   color: white;
+   text-align: right;
+   overflow: hidden;
+   background-color: black;
+}
+.navigation ul li{
+   display: inline-block;
+   font-size: 20px;
+   margin-left: 1em;
+   margin-right: 1em;
+}
+#one{
+  background-color: brown;
+  font-size: 1.5em;
+}
+.text {
+  text-align: left;
+  font-size: 3em;
+  padding-left: 4%;
+}
+
+
+
+#left {
+  width: 35%;
+  float: left;
+  height: 100%;
+  background-color: red;
+  color: #fff;
+  text-align: center;
+}
+#left .section {
+  margin-top: 40%;
+  padding: 1em;
+}
+#left .section .logo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: url('http://jaipurstudents.com/broker/wp-content/uploads/2015/10/dummy-logo-300x140.png');
+}
+.intro hr {
+  width: 4em;
+  display: block;
+  height: 2px;
+  border: 0px;
+  border-top: 2px solid;
+}
+.dob {
+  text-decoration: overline underline;
+}
+.intro .content {
+  margin-bottom: 20px;
+}
+#contact {
+  margin-top: 40px;
+}
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+#section-right {
+  width: 65%;
+  float: right;
+  /*height: 100%;*/
+}
+#section-right .section {
+  margin: 0 0 70px 0;
+}
+.wrapper {
+  padding: 3em;
+}
+.fa {
+  margin-right: 15px;
+}
+.wrapper .title {
+  color: #fc7a70;
+  font-size: 1.7em;
+  font-variant: small-caps;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  border-bottom: 2px solid #f2f2f2;
+}
+a:link {
+  color: #fff;
+  text-decoration: none;
+}
+a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+a:active {
+  color: #fff;
+  text-decoration: none;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 1em;
+}
+h3 {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.footer{
+  width: 100%;
+  height: 8em;
+  color: white;
+  text-align: center;
+  background-color: black;
+
+}
+.footer li{
+list-style: none;
+margin: 20px 30px;
+display: inline-block;
+padding: 40px 20px;
+color: red;
+border-radius: 30%;
+transition: 5s;
+font-size: 1em;
+}
+.footer li:hover{
+color: yellow;
+border: 1px solid yellow;
+transition: 0.5s;
+}

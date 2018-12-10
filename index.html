@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="css/project3.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/project3.js"></script>
+    <title>Portfolio Dmitriy Kan</title>
+
+  </head>
+  <body>
+    <div id="popUp" style="display:none;">
+    <div id="page">
+      <div id="main"><img src="images/resume.png" id="">
+        <button id="closebtn" type="button" name="button">Close</button>
+      </div>
+</div>
+  </div> <!--end of popUp-->
+<nav>
+  <div class="page-logo">
+    <a href="#" id="menu-icon">Dmitriy Kan</a>
+  </div>
+  <div class="nav-links">
+    <ul>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#bootstrap">Portfolio</a></li>
+      <li><a href="#">About</a></li>
+   </ul>
+  </div>
+  <div class="hamburger">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+	</div>
+  <div class="fullscreen-on-click">
+  </div>
+</nav>
+
+<header>
+  <div class="header-wrapper">
+    <div class="header-1"><h1>Computer Science Student</h1></div>
+    <div class="header-2"><h1></h1></div>
+    <div class="subtext"><h3>Hello, I am an aspiring web developer, data scientist and software engineer living in NYC.</h3></div>
+  </div>
+</header>
+
+<section id="languages">
+  <article>
+  <h2>Skills</h2>
+  <p>Frameworks, tools and languages I use.</p>
+  <div class="languages-wrapper">
+    <div>
+      <h4>HTML5</h4>
+    </div>
+    <div>
+      <h4>CCS3</h4>
+    </div>
+    <div>
+      <h4>Javascript</h4>
+    </div>
+    <div>
+      <h4>jQuery</h4>
+    </div>
+      <div>
+      <h4>PHP</h4>
+    </div>
+    <div>
+      <h4 id="bootstrap">Bootstrap</h4>
+    </div>
+  </div>
+  </article>
+</section>
+
+<section id="projects">
+  <h2>Portfolio</h2>
+  <p>Completed projets from CUNY TechProgram.</p>
+    <div class="container" id="project-wrapper">
+          <div class="row">
+            <div class="col-lg-6">
+        <section class=" card mb-4 bg-primary text-white" id="drchase">
+          <img id="img1" class="card-img-top img-fluid" src="images/people.png" alt="Project1">
+          <div class="card-body">
+            <h2 class="card-title">Project 1</h2>
+        </div>
+        <div class="carD-footer">
+          <a class="list-group-item" href="project1/index.html">View</a>
+        </div>
+      </section>
+    </div>
+      <!--Card2-->
+      <div class="col-lg-6">
+      <section class=" card mb-4 bg-primary text-white" id="drchase">
+        <img id="img2" class="card-img-top img-fluid" src="images/project2.png" height="100px" alt="Project 2">
+        <div class="card-body">
+          <h2 class="card-title">Project 2</h2>
+      </div>
+      <div class="carD-footer">
+        <a class="list-group-item" href="project2/project1.html">View</a>
+      </div>
+    </section>
+  </div>
+    <!--Card3-->
+    <div class="col-lg-6">
+    <section class=" card mb-4 bg-primary text-white" id="drchase">
+      <img id="img3" class="card-img-top img-fluid" src="images/portfolio.png" height="100px" alt="Project 3">
+      <div class="card-body">
+        <h2 class="card-title">Project 3</h2>
+    </div>
+    <div class="carD-footer">
+      <a class="list-group-item" href="portfolio/index.html">View</a>
+    </div>
+  </section>
+</div>
+</div><!-- end of card row-->
+</div><!--content container-->
+</section>
+
+<button onclick="topFunction()" id="event2" title="Go to top">&#8593;</button> <!--go to top Event-->
+
+<section id="contact">
+  <h3>Get in touch</h3>
+  <p>Got a project you would like me to work on? Or how about just a friendly chat? Connect with me on LinkedIn or shoot me an email.</p>
+  <a href="#"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
+  <a class="mailto" href="mailto:dmtkan@gmail.com"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
+</section>
+<div class="contact-form">
+ <form id="contact-form" action="contact.php" method="post">
+   <input type="text" name="name" class="form-control" placeholder="Your Full Name" required><br>
+   <input type="email" name="email" class="form-control" placeholder="Your email" required><br>
+   <input type="text" name="subject" class="form-control" placeholder="Your Subject" required><br>
+   <textarea name="message" placeholder="Your Message" class="form-control" rows="4" cols="40" required></textarea><br>
+
+   <input type="submit" class="form-controlsubmit"  value="SEND MESSAGE">
+
+
+
+ </form>
+</div>
+
+<footer>
+  <ul>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+<!--     <li><a href="#">Free Resources</a></li> -->
+<!--     <li><a href="#">Blog</a></li> -->
+    <li><a href="#">LinkedIn</a></li>
+    <li><a href="#">Twitter</a></li>
+    <li><a href="#">GitHub</a></li>
+    <li><a href="#">Instagram</a></li>
+  </ul>
+  <p>Copyright ©
+    <script type="text/javascript">
+      document.write(new Date().getFullYear());
+    </script>. All rights reserved.</br>Page still in beta mode - sorry for the inconvience.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,190 @@
+
+body{
+background-image: url(background.jpg);
+}
+
+#main{
+  position: relative;
+}
+#hotel1, #hotel2, #hotel3, #hotel4 {
+  width: 28%;
+  height: 15em;
+  margin: 3% 9%;
+  padding: 1%;
+  font-size: 1.3em;
+  float: left;
+  text-align: center;
+}
+#hotel1{
+  background-image: url(hilton.jpg);
+  background-size: 510px;
+  border-radius: 70em 70em 70em 70em;
+  color: white;
+
+}
+#hotel2{
+  background-image: url(radison.jpg);
+  background-size: 460px;
+  border-radius: 70em 70em 70em 70em;
+  color: white;
+
+}
+#hotel3{
+  background-image: url(plaza.jpg);
+  background-size: 510px;
+  border-radius: 70em 70em 70em 70em;
+  color: white;
+}
+#hotel4{
+  background-image: url(hyatt.jpg);
+  background-size: 710px;
+  border-radius: 70em 70em 70em 70em;
+  color: white;
+
+}
+#properties1{
+  text-align: center;
+  color: black;
+  background-color: lightgrey;
+  border-radius: 60em 60em 60em 60em;
+  opacity: 0.8;
+  width: 60%;
+  margin: 90px 80px;
+
+
+}
+#properties2{
+  text-align: center;
+  color: black;
+  background-color: lightgrey;
+  border-radius: 60em 60em 60em 60em;
+  opacity: 0.8;
+  width: 60%;
+  margin: 90px 80px;
+}
+#properties3{
+  text-align: center;
+  color: black;
+  background-color: lightgrey;
+  border-radius: 60em 60em 60em 60em;
+  opacity: 0.8;
+  width: 60%;
+  margin: 90px 80px;
+}
+#properties4{
+  text-align: center;
+  color: black;
+  background-color: lightgrey;
+  border-radius: 60em 60em 60em 60em;
+  opacity: 0.8;
+  width: 60%;
+  margin: 90px 80px;
+}
+
+
+#feedback {
+  color: yellow;
+}
+#wordCounter {
+  color: yellow;
+}
+ #close{
+   text-decoration: none;
+   float: right;
+   top: 10em;
+   font-size: 1em;
+   color: red;
+
+ }
+#msgNote{
+  color: white;
+  background: black;
+  width: 60%;
+  height: 30em;
+  padding: 1em;
+  background-color: white;
+  margin: auto;
+  margin-top: 5em;
+  background-image: url(booking.jpg);
+
+}
+#note{
+  background-color: rgba(0,0,0,0.6);
+  width: 100%;
+  height: 50em;
+  position: absolute;
+  top: 0;
+}
+#kan{
+  text-align: center;
+  background-color: grey;
+  position: absolute;
+  width: 50%;
+  margin-top: 25%;
+  margin-left: 5%;
+  height: 4em;
+  font-weight: bolder;
+
+}
+#pop{
+  border-radius: 90em 90em 90em 90em;
+  width: 4em;
+  height: 4em;
+  background-color: none;
+  background-image: url(scrollup.png);
+  background-size: contain;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 0.3;
+
+}
+
+.boo{
+  height:100em;
+}
+#reserve{
+  position: absolute;
+  height: 40em;
+  width: 35%;
+  top: 15em;
+  left: 30em;
+  background-color: lightpink;
+  color: white;
+  display: none;
+  padding: 1em;
+  border: solid red;
+
+
+}
+#text123{
+  width: 80%;
+
+}
+#btnClose{
+  height: 2em;
+  width: 2em;
+  background-image: url(close.png);
+  background-size: contain;
+  position: absolute;
+  float: right;
+  top: 0;
+  right: 0;
+
+}
+.subtext{
+  font-size: 1em;
+  width:100%;
+  box-sizing: border-box;
+  height: 100%;
+  color: yellow;
+  bottom: 20em;
+  font-family: consolas;
+  overflow:hidden;
+}
+
+#form1{
+  color: black;
+  height: 10em;
+  width: 90%;
+}
